@@ -1,0 +1,9 @@
+#!/bin/bash
+USER="Deyan"
+date
+pwd
+echo "Hello $USER!"
+ps -ef | tail +2 | wc -l
+ps -ef | grep -w bioset | grep -v grep | tail +2 | wc -l
+ls -la | awk '{print$1}'
+[ec2-user@ip-172-31-33-20 DeyanSpasov]$
